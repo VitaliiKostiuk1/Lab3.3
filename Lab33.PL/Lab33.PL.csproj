@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- PL працює лише з BLL. Код PL не повинен звертатися до типів DAL. -->
+    <ProjectReference Include="..\Lab33.BLL\Lab33.BLL.csproj" />
+  </ItemGroup>
+
+</Project>

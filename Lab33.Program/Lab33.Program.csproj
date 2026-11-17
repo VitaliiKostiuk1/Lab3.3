@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Запускний проект знає лише про рівень представлення. -->
+    <ProjectReference Include="..\Lab33.PL\Lab33.PL.csproj" />
+  </ItemGroup>
+
+</Project>
